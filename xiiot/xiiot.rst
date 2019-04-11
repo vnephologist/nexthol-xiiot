@@ -6,10 +6,6 @@ Xi IoT
 
 *The estimated time to complete this lab is 60 minutes.*
 
-.. raw:: html
-
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/NRIgFxvycHw?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Overview
 ++++++++
 
@@ -473,37 +469,3 @@ What are the key things you should know about **Nutanix Xi IoT**?
 - Supports serverless and development languages like Python, Node.js and Go and integrates into existing CI/CD pipelines.
 
 - Developer APIs and pluggable architecture enables bring your own framework and functions for simplified integrations without having to rewrite your code.
-
-- Additional information and content is available internally on the `Xi IoT page in Seismic <https://nutanix.seismic.com/X5/doccenter.aspx#/doccenter/3d301e27-091a-48d7-8289-723f1c5da5da/doc/%252Fddfc05babc-f097-4734-9e68-e955f90ce169%252Flf7de8bc77-7e57-49a7-b654-02b5156d81cf//?mode=view>`_ .
-
-Cleanup
-+++++++
-
-.. raw:: html
-
-  <strong><font color="red">Once your lab completion has been validated, PLEASE do your part to remove any unneeded VMs to ensure resources are available for all users on your shared cluster.</font></strong>
-
-Delete your *Initials* **-Edge** VM.
-
-Getting Connected
-+++++++++++++++++
-
-Have a question about **Nutanix Xi IoT**? Please reach out to the resources below:
-
-+---------------------------------------------------------------------------------+
-|  Xi IoT Product Contacts                                                        |
-+================================+================================================+
-|  Slack Channel                 |  #xi_iot_news & #xi_iot_support                |
-+--------------------------------+------------------------------------------------+
-|  Product Manager               |  Amit Jain, amit.jain@nutanix.com              |
-+--------------------------------+------------------------------------------------+
-|  Product Marketing Manager     |  Rohit Goyal, rohit.goyal@nutanix.com          |
-+--------------------------------+------------------------------------------------+
-|  Solutions Architect           |  Andy Daniel, andy.daniel@nutanix.com          |
-+--------------------------------+------------------------------------------------+
-|  Founders Team Manager         |  Jason Langone, jason@nutanix.com              |
-+--------------------------------+------------------------------------------------+
-|  Founders Team                 |  Phil Ditzel, philip.ditzel@nutanix.com        |
-+--------------------------------+------------------------------------------------+
-|  Strategic Business            |  Tom Queen, thomas.queen@nutanix.com           |
-+--------------------------------+------------------------------------------------+
