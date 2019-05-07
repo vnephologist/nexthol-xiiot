@@ -216,7 +216,7 @@ sporting event.
 
 #. Click :fa:`bars` **> Apps and Data > Applications**.
 
-#. On the **youtube-8m-object-detection-app** applicaiton tile, click **Actions**, then **Start**, then **Start** again.
+#. On the **youtube-8m-object-detection-app** application tile, click **Actions**, then **Start**, then **Start** again.
 
 #. Click View App UI.
 
@@ -244,7 +244,7 @@ sporting event.
 
 #. Close the App UI tab.
 
-#. Back on the **youtube-8m-object-detection-app** applicaiton tile, click **Actions**, then click **Stop**, then click **Stop** again.
+#. Back on the **youtube-8m-object-detection-app** application tile, click **Actions**, then click **Stop**, then click **Stop** again.
 
 Using Xi IoT Data Pipelines to Detect Objects in a YouTube-8M Video
 ###################################################################
@@ -377,7 +377,7 @@ exploring the echoapp sample application provided in the Application Library.
 
    .. note::
    
-      The echoapp YAML and sourcecode is posted at https://github.com/nutanix/xi-iot/tree/master/applications/echo-app.
+      The echoapp YAML and source is posted at https://github.com/nutanix/xi-iot/tree/master/applications/echo-app.
    
 #. Click **Next**.
 
@@ -391,13 +391,13 @@ exploring the echoapp sample application provided in the Application Library.
 
 #. Click **Update**.
 
-#. Click **Actions**, then **Start**, then **Start** again on the echoapp applicaiton tile to start the application.
+#. Click **Actions**, then **Start**, then **Start** again on the echoapp application tile to start the application.
 
 #. Click **View Http Live Stream** on the echoapp application tile to view the application's HLS output.
 
 #. Click :fa:`remove` to close the HLS page.
 
-#. Click **Actions**, then **Stop**, then **Stop** again on the echoapp applicaiton tile to stop the application.
+#. Click **Actions**, then **Stop**, then **Stop** again on the echoapp application tile to stop the application.
 
 
 Using the Xi IoT AI Inferencing Service to Detect Objects
@@ -414,11 +414,11 @@ Use data pipelines and a YouTube-8M video to demonstrate object detection using 
 
 #. On the ai-inference-service-demo data pipeline tile, click **Actions**, then **Edit**.
 
-   This data pipeline will look very similar to the youtube-8m-object-detection pipeline used in the earlier excercise. However, there's one major difference.
+   This data pipeline will look very similar to the youtube-8m-object-detection pipeline used in the earlier exercise. However, there's one major difference.
    Take notice of the transformation function used in this pipeline. It's named **ml_objectdetect_func-python**.
 
    To better understand how the AI Inferencing Service works, first take a look at the **objdetect_func-python** used in
-   the youtube-8m-object-detection data pipeline in the earlier excercise, then compare it to the **ml_objectdetect_func-python** function.
+   the youtube-8m-object-detection data pipeline in the earlier exercise, then compare it to the **ml_objectdetect_func-python** function.
 
 #. Click :fa:`remove` to close the data pipeline without making any changes.
 
@@ -441,7 +441,7 @@ Use data pipelines and a YouTube-8M video to demonstrate object detection using 
       # ssd_inception_v2_coco	latency - 42ms
       PATH_TO_CKPT = BASE_PATH + '/ssd_inception_v2_coco_2017_11_17/frozen_inference_graph.pb'
 
-   As mentioned in the earlier excercise, the ssd inception v2 model is embedded in the Xi IoT Tensorflow Python runtime. This is
+   As mentioned in the earlier exercise, the ssd inception v2 model is embedded in the Xi IoT Tensorflow Python runtime. This is
    fine for an example, but not suitable for production deployments. For example, the model cannot be updated.
 
    Now compare this python code to that used in the ml_objectdetect_func-python function used in the ai-inference-service-demo data pipeline.
@@ -463,7 +463,7 @@ Use data pipelines and a YouTube-8M video to demonstrate object detection using 
       ai_inference_endpoint = os.environ['AI_INFERENCE_ENDPOINT']
 
    Object detection, or inference, will now be performed by the Inferencing Service, so the function must know the service 
-   endpoint for submission at the edge. As you can see, its automatically passed to the runtime as an environment varaible.
+   endpoint for submission at the edge. As you can see, its automatically passed to the runtime as an environment variable.
 
    Now take notice of lines 153-170 excerpted below:
 
