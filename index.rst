@@ -22,21 +22,22 @@ The Nutanix Xi IoT platform delivers local compute and AI for IoT edge devices, 
 The Xi IoT platform eliminates complexity, accelerates deployments, and elevates developers to focus on the business logic powering IoT applications and services.
 Now developers can use a low-code development platform to create application software via APIs instead of arduous programming methods.
 
-Xi IoT .NEXT 2019 Hands On Lab
-##############################
+Xi IoT Trial
+############
 
-This Xi IoT Quick Start leverages the Xi IoT .NEXT 2019 HoL. The lab trial is a limited-time, ready-to-deploy
+This Xi IoT Quick Start leverages the Xi IoT Trial. The trial is a limited-time, ready-to-deploy
 implementation of the Xi IoT edge computing
-platform. The Xi IoT .NEXT 2019 HoL provides pre-built applications and data
+platform. The Xi IoT Trial provides pre-built applications and data
 connectors hosted on its own infrastructure. This instant architecture demonstrates how 
 to quickly develop and test IoT applications in the cloud for seamless deployment to the edge.
 
 Nutanix has already created the basic infrastructure you need to get
 started.
 
-**What's In the Xi IoT .NEXT 2019 HoL?**
+**What's In the Xi IoT Trial?**
 
-1. Xi IoT management console, which provides the base for your Xi IoT lab.
+1. Xi IoT management console, which provides the base for your Xi IoT
+   trial.
 
 2. A Starter project that includes:
 
@@ -52,7 +53,7 @@ started.
 
 ..
 
-**What Can I Do with the Xi IoT .NEXT 2019 HoL?**
+**What Can I Do with the Xi IoT Trial?**
 
 -  Stream video from YouTube-8M video or your smartphone to the Xi Cloud
    edge.
@@ -65,23 +66,27 @@ started.
 
 ..
 
-Signing Up For the Xi IoT .NEXT 2019 HoL
-++++++++++++++++++++++++++++++++++++++++
+Signing Up For the Xi IoT Trial
++++++++++++++++++++++++++++++++
 
-**As a .NEXT 2019 attendee, you're being provided a sneak peak into the next version of Xi IoT. This means you must create an account and login to special "stage" servers.** 
+Do any of these steps to sign up for the Xi IoT Trial.
 
-Do these steps to sign up for the Xi IoT .NEXT 2019 HoL.
+a. Click Start Trial at https://www.nutanix.com/products/iot/ or
+   `https://iot.nutanix.com <https://iot.nutanix.com/>`__.
 
-#. Sign up now for a **Stage My Nutanix** account at `https://stage-my.nutanix.com/#signup <https://stage-my.nutanix.com/#signup>`__ and activate it by following the link in your email.
+b. Sign up now for a My Nutanix account at
+   `https://my.nutanix.com <https://my.nutanix.com/>`__.
 
-#. Once activated, log on to
-   `https://stage.ntnxsherlock.com <https://stage.ntnxsherlock.com/>`__ by clicking on Log in with My Nutanix, and entering the Stage My Nutanix account credentials you just created.
+c. If you already have an account, log on to
+   `https://my.nutanix.com <https://my.nutanix.com/>`__ with your
+   existing account credentials and click Learn More in the Xi IoT
+   panel.
 
-   **DO NOT CLICK ON START TRIAL**
+..
 
 SUPPORT FOR AND LEARNING MORE ABOUT XI IOT
 
-The most support for the Xi IoT .NEXT 2019 HoL is available through the
+The most support for the Xi IoT trial is available through the
 Nutanix Next Xi IoT trial forum. Nutanix asks that you share your
 experiences and lessons learned with your fellow users.
 
@@ -104,31 +109,27 @@ IoT.
    documentation <https://portal.nutanix.com/?filterKey#type&filterVal#Xi#/page/docs/list>`__.
 
 
-Getting Started With the Xi IoT .NEXT 2019 HoL
-++++++++++++++++++++++++++++++++++++++++++++++
+Getting Started With the Xi IoT Trial
++++++++++++++++++++++++++++++++++++++
 
-1. Log on to the Stage Xi IoT management console.
+1. Log on to the Xi IoT management console.
 
 2. Have a YouTube-8M URL handy or create and upload a video from your
    smartphone.
 
 3. On your smartphone, download the Xi IoT Sensor app (available from the
-   Google Play Store).
+   Google Play Store or Apple App Store).
 
 Logging On to the Xi IoT Console
 --------------------------------
 
 Before you begin:
 
-**As a .NEXT 2019 attendee, you're being provided a sneak peak into the next version of Xi IoT. This means you must create an account and login to special "stage" servers.** 
-
 Supported web browsers include the current and two previous versions of
 Google Chrome. You'll need your My Nutanix credentials for this step.
   
-1. Open https://stage.ntnxsherlock.com in a web browser, click **Log in with
-   My Nutanix** and log on with your **Stage My Nutanix** credentials.
-
-   **DO NOT CLICK ON START TRIAL**
+1. Open https://iot.nutanix.com/ in a web browser, click **Log in with
+   My Nutanix** and log on with your My Nutanix credentials.
 
 2. If you are logging on for the first time, click to read the Terms and Conditions, then click to Accept and Continue.
 
@@ -159,26 +160,26 @@ Using the Xi IoT Sensor App to Detect Objects in Your Smartphone Video
 
 About this task
 
-Connect your Android based phone (iPhone coming soon) as a data source to stream video and perform
+Connect your Android or iOS based phone as a data source to stream video and perform
 object detection in near realtime using Xi IoT. Output can be viewed on your phone
 and from an HTTP Live Stream (HLS) in your browser.
    
-#. If you are not logged on, open https://stage.ntnxsherlock.com/ in a web
+#. If you are not logged on, open https://iot.nutanix.com/ in a web
    browser and log in.
 
 #. Connect your phone through the Quick Start menu.
 
-   a. Click Quick Start, then click **Scan QR code** to connect a phone.
+   a. Click Quick Start, then click **Pair your smartphone now** to connect a phone.
 
    .. figure:: contents/images/image5.png
 
       Figure 1: Quick Start: Phone as Data Source
       
-   b. Open the Google Play Store on your Android based phone, search for Xi IoT Sensor, 
+   b. Open the Google Play Store or App Store on your phone, search for Xi IoT Sensor, 
       and install the app on your phone.
 
-   c. After downloading and installing the Xi IoT Sensor app, open it, tap the Xi IoT icon ten (10) times to switch its connection to
-      the stage server, then scan the QR code to authenticate.
+   c. After downloading and installing the Xi IoT Sensor app, scan the QR code
+      to authenticate (Android users), or log in with your My Nutanix credentials (iPhone).
 
    d. Enter a name for your phone, then click Next.
    
@@ -211,7 +212,7 @@ recommend a short video showing city scenes, drone footage, or a
 sporting event.
 
 
-#. If you are not logged on, open https://stage.ntnxsherlock.com/ in a web
+#. If you are not logged on, open https://iot.nutanix.com/ in a web
    browser and log in.
 
 #. Click :fa:`bars` **> Apps and Data > Applications**.
@@ -253,7 +254,7 @@ About this task
 
 Use data pipelines and two YouTube-8M videos to demonstrate object detection using only python code in Xi IoT.
 
-#. If you are not logged on, open https://stage.ntnxsherlock.com/ in a web
+#. If you are not logged on, open https://iot.nutanix.com/ in a web
    browser and log in.
 
 #. Click :fa:`bars` **> Apps and Data > Data Pipelines**.
@@ -361,7 +362,7 @@ About this task
 Learn more about using your phone or a YouTube-8M video as a data source, and a HTTP Live Stream as output when writing your own applications for Xi IoT by
 exploring the echoapp sample application provided in the Application Library.
 
-#. If you are not logged on, open https://stage.ntnxsherlock.com/ in a web
+#. If you are not logged on, open https://iot.nutanix.com/ in a web
    browser and log in.
 
 #. Click :fa:`bars` **> Apps and Data > Applications**.
@@ -407,7 +408,7 @@ About this task
 
 Use data pipelines and a YouTube-8M video to demonstrate object detection using the Xi IoT AI Inferencing Service.
 
-#. If you are not logged on, open https://stage.ntnxsherlock.com/ in a web
+#. If you are not logged on, open https://iot.nutanix.com/ in a web
    browser and log in.
 
 #. Click :fa:`bars` **> Apps and Data > Data Pipelines**.
