@@ -215,7 +215,7 @@ sporting event.
 #. If you are not logged on, open https://iot.nutanix.com/ in a web
    browser and log in.
 
-#. Click :fa:`bars` **> Apps and Data > Applications**.
+#. Click :fa:`bars` **> Apps and Data > Kubernetes Apps**.
 
 #. On the **youtube-8m-object-detection-app** application tile, click **Actions**, then **Start**, then **Start** again.
 
@@ -285,7 +285,7 @@ Use data pipelines and two YouTube-8M videos to demonstrate object detection usi
 
 #. Click :fa:`remove` to close the data pipeline without making any changes.
 
-In Xi IoT, categories help you assign various attributes to edges and data sources which can be further used to query and select them when creating Data Pipelines or deploying Applications.
+In Xi IoT, categories help you assign various attributes to edges and data sources which can be further used to query and select them when creating Data Pipelines or deploying Kubernetes Apps.
 
 An example of a category could be “City” with values in [San Francisco, San Jose, San Diego] or “State” with values in [California, Washington, Oregon] and so on. It can be anything meaningful to your environment. 
 
@@ -354,7 +354,7 @@ the data pipeline to use this new channel.
 
 #. On the youtube-8m-object-detection data pipeline tile, click **Actions**, then **Stop**, then **Stop** again to stop the data pipeline.
 
-Using Xi IoT Input and Output Connectors for Applications
+Using Xi IoT Input and Output Connectors for Kubernetes Apps
 #########################################################
 
 About this task
@@ -365,7 +365,7 @@ exploring the echoapp sample application provided in the Application Library.
 #. If you are not logged on, open https://iot.nutanix.com/ in a web
    browser and log in.
 
-#. Click :fa:`bars` **> Apps and Data > Applications**.
+#. Click :fa:`bars` **> Apps and Data > Kubernetes Apps**.
 
 #. On the echoapp application tile, click **Actions**, then **Edit**.
 
